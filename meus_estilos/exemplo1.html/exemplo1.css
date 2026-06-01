@@ -1,0 +1,40 @@
+ h1{
+            font-family: cursive;
+            color: blue;
+            background-color:cornsilk;
+            text-align: center;
+        }
+
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+            text-indent: 2em;
+        }
+
+        .par{
+            background-color: lightpink;
+            color: seashell;
+        }
+
+        .especial{
+            font-size: 2em ;
+        }
+        
+        #primeiro{
+            border: 2px dotted rgb(211, 32, 92);
+        }
+
+header{
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    background-image: url("/imagens/exemplo1/32w1500.jpg");
+    background-size: contain;
+    
+}

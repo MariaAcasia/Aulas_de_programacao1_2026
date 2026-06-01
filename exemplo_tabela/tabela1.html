@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Tabela</title>
+    <style>
+        table, td, tr, th{
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="border: 1px solid blue;"> <!-- border é um atributo obsoleto, deve-se utilizar css -->
+        <thead>
+            <tr>
+                <th>Aluno</th>
+                <th>Nota</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Aluno</td>
+            </tr>
+            <tr>
+                <td>Fulano</td>
+                <td>8.5</td>
+            </tr>
+            <tr>
+                <td>Sicrana</td>
+                <td>9.0</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+            <td colspan="2"><strong>Minha Tabela</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
