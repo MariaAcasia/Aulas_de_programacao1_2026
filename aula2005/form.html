@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Refresco</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+
+<body>
+
+    <h2>
+        Quantos litros de refresco deseja fazer?
+        <input type="number" id="litros" min="1">
+    </h2>
+
+    <h2>Escolha o tipo de suco:</h2>
+
+    <input type="radio" name="suco" value="maracuja">
+    maracujá
+
+    <input type="radio" name="suco" value="caju">
+    caju
+
+    <input type="radio" name="suco" value="goiaba">
+    goiaba
+
+    <br><br><br>
+
+    <h2>Itens extras a utilizar:</h2>
+
+    <input type="checkbox" id="acucar">
+    açucar
+
+    <input type="checkbox" id="gelo">
+    gelo
+
+    <br><br><br>
+
+    <button class="botao-bonito" onclick="calcular()">
+        Calcular
+    </button>
+
+    <button class="botao-bonito" onclick="novo()">
+        Novo
+    </button>
+
+    <br><br><br>
+
+    <h1>
+        Água:
+        <span id="agua"></span>
+
+        Suco:
+        <span id="suco"></span>
+    </h1>
+
+    
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
